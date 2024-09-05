@@ -1,0 +1,398 @@
+/*
+    Este código foi desenvolvido por DevWave.
+    Todos os direitos reservados © 2024.
+*/
+
+
+/* ========================================
+   Reset de CSS para garantir consistência
+   ======================================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========================================
+   Estilos Gerais da Página
+   ======================================== */
+
+/* Fonte padrão e altura de linha para melhor legibilidade */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Cor de fundo suave para todas as páginas */
+}
+
+/* Container centralizado com largura fixa */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Estilo do cabeçalho principal */
+header {
+    background: #333; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Texto branco para contraste */
+    padding-top: 30px;
+    min-height: 100px;
+    border-bottom: #77b6ea 3px solid; /* Linha azul na parte inferior do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+header h1 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-size: 2.5em; /* Tamanho da fonte do título */
+}
+
+header p {
+    font-size: 1.2em; /* Tamanho da fonte do subtítulo */
+}
+
+/* Estilo dos botões de chamada para ação */
+.cta-button {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #77b6ea; /* Cor de fundo azul */
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s ease; /* Transição suave para hover */
+}
+
+.cta-button:hover {
+    background: #0056b3; /* Cor de fundo escura ao passar o mouse */
+}
+
+/* ========================================
+   Estilos da Landing Page (index.html)
+   ======================================== */
+
+header.index-header {
+    /* Estilos específicos para o cabeçalho da landing page */
+}
+
+section#index-header {
+    /* Estilos específicos para a seção de introdução da landing page */
+}
+
+section#features {
+    background: #fff; /* Fundo branco para a seção de recursos */
+}
+
+.features-grid {
+    display: flex; /* Exibe os itens em linha */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+}
+
+.feature-item {
+    width: 30%; /* Largura de cada item de recurso */
+    background: #f4f4f4; /* Fundo cinza claro para os itens */
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    transition: transform 0.3s ease; /* Transição para efeito de hover */
+}
+
+.feature-item:hover {
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.feature-item h3 a {
+    color: #333; /* Cor do link nos títulos */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.feature-item h3 a:hover {
+    color: #77b6ea; /* Muda a cor ao passar o mouse */
+}
+
+/* ========================================
+   Estilos das Páginas Específicas
+   ======================================== */
+
+/* -------------------------
+   Estilos para design.html
+   ------------------------- */
+
+/* Início das estilizações para design.html */
+#design-intro {
+    background-color: #e0f7fa; /* Fundo azul claro para a introdução */
+    padding: 40px 0; /* Padding maior para espaçamento */
+}
+
+#design-intro h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#design-intro p {
+    font-size: 1.1em; /* Tamanho da fonte para parágrafos */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+.responsive-image {
+    display: block; /* Exibe a imagem como bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 100%; /* Largura máxima de 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#design-features {
+    background-color: #fff3e0; /* Fundo laranja claro para características */
+    padding: 40px 0;
+}
+
+#design-features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#design-features .feature-item {
+    background: #ffe0b2; /* Fundo laranja claro para itens */
+}
+
+#design-testimonials {
+    background-color: #fff; /* Fundo branco para depoimentos */
+    padding: 40px 0;
+}
+
+#design-testimonials .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic; /* Texto em itálico para depoimentos */
+}
+
+#design-testimonials .testimonial span {
+    display: block; /* Exibe o nome em bloco */
+    margin-top: 10px;
+    font-weight: bold; /* Nome em negrito */
+}
+/* Fim das estilizações para design.html */
+
+/* -------------------------
+   Estilos para performance.html
+   ------------------------- */
+
+/* Início das estilizações para performance.html */
+#performance-intro {
+    background-color: #e8f5e9; /* Fundo verde claro para a introdução */
+    padding: 40px 0;
+}
+
+#performance-intro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#performance-intro p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#performance-specs {
+    background-color: #f1f8e9; /* Fundo verde muito claro para especificações */
+    padding: 40px 0;
+}
+
+#performance-specs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.specs-list {
+    list-style: none; /* Remove marcadores da lista */
+    max-width: 600px; /* Largura máxima da lista */
+    margin: 0 auto; /* Centraliza a lista */
+    font-size: 1.1em;
+}
+
+.specs-list li {
+    background: #dcedc8; /* Fundo verde claro para itens da lista */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#performance-use-cases {
+    background-color: #fff; /* Fundo branco para casos de uso */
+    padding: 40px 0;
+}
+
+#performance-use-cases h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.use-cases-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.use-case-item {
+    width: 30%;
+    background: #c5e1a5; /* Fundo verde mais claro para casos de uso */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.use-case-item:hover {
+    transform: scale(1.05);
+}
+
+#performance-testimonials {
+    background-color: #f1f8e9; /* Fundo verde muito claro para depoimentos */
+    padding: 40px 0;
+}
+
+#performance-testimonials .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#performance-testimonials .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Fim das estilizações para performance.html */
+
+/* -------------------------
+   Estilos para usabilidade.html
+   ------------------------- */
+
+/* Início das estilizações para usabilidade.html */
+#usability-intro {
+    background-color: #fff3e0; /* Fundo laranja claro para a introdução */
+    padding: 40px 0;
+}
+
+#usability-intro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#usability-intro p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#usability-features {
+    background-color: #ffe0b2; /* Fundo laranja mais claro para funcionalidades */
+    padding: 40px 0;
+}
+
+#usability-features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#usability-features .feature-item {
+    background: #ffcc80; /* Fundo laranja médio para itens de funcionalidades */
+}
+
+#usability-tips {
+    background-color: #fff; /* Fundo branco para dicas */
+    padding: 40px 0;
+}
+
+#usability-tips h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tips-list {
+    list-style: disc inside; /* Lista com marcadores */
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#usability-testimonials {
+    background-color: #ffe0b2; /* Fundo laranja mais claro para depoimentos */
+    padding: 40px 0;
+}
+
+#usability-testimonials .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#usability-testimonials .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Fim das estilizações para usabilidade.html */
+
+/* ========================================
+   Estilos do Rodapé
+   ======================================== */
+
+footer {
+    background: #333; /* Fundo escuro para o rodapé */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* ========================================
+   Estilos das Imagens Responsivas
+   ======================================== */
+
+.responsive-image {
+    display: block; /* Exibe a imagem como bloco */
+    margin: 20px auto; /* Centraliza a imagem com margem */
+    max-width: 100%; /* Largura máxima de 100% do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* ========================================
+   Estilos das Listas
+   ======================================== */
+
+.specs-list li, .tips-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f0f0f0; /* Fundo cinza claro para itens da lista */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* ========================================
+   Estilos dos Depoimentos
+   ======================================== */
+
+.testimonial {
+    background: #fff; /* Fundo branco para depoimentos */
+    padding: 20px;
+    border-left: 5px solid #77b6ea; /* Linha azul à esquerda */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-size: 1em;
+}
+
+.testimonial span {
+    font-size: 0.9em;
+    color: #77b6ea; /* Cor azul para o nome */
+}

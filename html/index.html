@@ -1,0 +1,72 @@
+<!--
+    Este código foi desenvolvido por DevWave.
+    Todos os direitos reservados © 2024.
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWidget - Revolucione seu Dia a Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com título e subtítulo -->
+    <header>
+        <div class="container">
+            <h1>SmartWidget</h1>
+            <p>O gadget que vai transformar sua rotina.</p>
+            <a href="#features" class="cta-button">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- Seção de recursos -->
+    <section id="features">
+        <div class="container">
+            <h2>Recursos Inovadores</h2>
+            <div class="features-grid">
+                <!-- Link para a página sobre Design Elegante -->
+                <div class="feature-item">
+                    <h3><a href="design.html">Design Elegante</a></h3>
+                    <p>Compacto e sofisticado, o SmartWidget se encaixa perfeitamente em qualquer ambiente.</p>
+                </div>
+                <!-- Link para a página sobre Alta Performance -->
+                <div class="feature-item">
+                    <h3><a href="performance.html">Alta Performance</a></h3>
+                    <p>Poderoso e rápido, garante desempenho máximo em todas as suas funções.</p>
+                </div>
+                <!-- Link para a página sobre Facilidade de Uso -->
+                <div class="feature-item">
+                    <h3><a href="usabilidade.html">Fácil de Usar</a></h3>
+                    <p>Com uma interface intuitiva, qualquer pessoa pode começar a usar imediatamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de inscrição para mais informações -->
+    <section id="signup">
+        <div class="container">
+            <h2>Cadastre-se para Saber Mais</h2>
+            <p>Inscreva-se abaixo para receber mais informações sobre o SmartWidget.</p>
+           <form id="lead-form" action="process_form.php" method="POST">
+               <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+               <button type="submit">Enviar</button>
+           </form>
+           <p id="response-message"></p>
+        </div>
+    </section>
+
+    <!-- Rodapé com direitos autorais -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SmartWidget. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
